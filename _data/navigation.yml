@@ -39,15 +39,15 @@ header:
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
     url: /about.html
-
-  sidebar:
-    nav: docs-en
-
-docs-en:
-  - title:      Start
-    children:
-      - title:  开始
-        url:    /docs/en/quick-start
-
-      - title:  结构
-        url:    /docs/en/quick-start
+#
+#  sidebar:
+#    nav: docs-en
+#
+#docs-en:
+#  - title:      Start
+#    children:
+#      - title:  开始
+#        url:    /docs/en/quick-start
+#
+#      - title:  结构
+#        url:    /docs/en/quick-start
