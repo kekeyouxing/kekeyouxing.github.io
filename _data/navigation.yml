@@ -40,10 +40,7 @@ header:
       zh-HK   : *ZH_HANT
     url: /about.html
 
-sidebar:
-  nav: docs-en
-
-docs-en:
+docs-zh:
   - title:      登录
     children:
       - title:  Oauth2 密码模式
@@ -51,3 +48,6 @@ docs-en:
 
       - title:  登录信息和客户端信息
         url:    /2020/06/12/springsecurity-2.html
+
+sidebar:
+  nav: docs-en
