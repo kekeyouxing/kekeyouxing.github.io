@@ -1,44 +1,3 @@
-header:
-  - titles:
-      # @start locale config
-      en      : &EN       Archive
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  归档
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  歸檔
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       아카이브
-      ko-KR   : *KO
-      fr      : &FR       Archives
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      # @end locale config
-    url: /archive.html
-
-  - titles:
-      # @start locale config
-      en      : &EN       About
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  关于
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  關於
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-    url: /about.html
 
 docs-zh:
   - title:      登录
@@ -48,6 +7,16 @@ docs-zh:
 
       - title:  登录信息和客户端信息
         url:    /2020/06/12/springsecurity-2.html
-
 sidebar:
   nav: docs-zh
+header:
+  - titles:
+      en      : Archive
+      zh      : 归档
+    url: /archive.html
+
+  - titles:
+      en      : About
+      zh      : 关于
+    url: /about.html
+
