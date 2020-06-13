@@ -1,6 +1,11 @@
 ---
 title: 登录信息和客户端信息
 tags: Spring Security Oauth2
+layout: article
+aside:
+  toc: true
+sidebar:
+  nav: docs-zh
 ---
 #### 导语：
 > 本文将介绍客户端向授权服务器发送请求获取access_token时，包含哪些信息。

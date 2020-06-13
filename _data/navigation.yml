@@ -13,8 +13,6 @@ header:
       en      : Archive
       zh      : 归档
     url: /archive.html
-  - sidebar:
-      nav: docs-zh
 
   - titles:
       en      : About

@@ -1,6 +1,11 @@
 ---
 title: Oauth2 密码模式
 tags: Spring Security Oauth2
+layout: article
+aside:
+  toc: true
+sidebar:
+  nav: docs-zh
 ---
 #### 导语：
 > spring security oauth2密码模式是基于用户输入账号、密码实现登录的一套安全框架，本系列博客将从源码分析用户是如何登入系统，以及在这个过程中
