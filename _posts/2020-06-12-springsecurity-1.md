@@ -1,6 +1,8 @@
 ---
 title: Oauth2 密码模式
 tags: Spring Security Oauth2
+author: keyouxing
+comment: true
 layout: article
 aside:
   toc: true

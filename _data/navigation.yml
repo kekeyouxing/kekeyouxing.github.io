@@ -5,8 +5,11 @@ docs-zh:
       - title:  Oauth2 密码模式
         url:    /2020/06/12/springsecurity-1.html
 
-      - title:  登录信息和客户端信息
+      - title:  用户信息和客户端信息
         url:    /2020/06/12/springsecurity-2.html
+
+      - title:  获取access_token-1(前端)
+        url:    /2020/06/12/springsecurity-3.html
 
 header:
   - titles:

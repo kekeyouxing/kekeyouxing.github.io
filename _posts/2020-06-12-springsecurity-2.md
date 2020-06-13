@@ -1,6 +1,8 @@
 ---
-title: 登录信息和客户端信息
+title: 用户信息和客户端信息
 tags: Spring Security Oauth2
+author: keyouxing
+comment: true
 layout: article
 aside:
   toc: true
