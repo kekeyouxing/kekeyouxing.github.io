@@ -12,7 +12,7 @@ comment: true
 #### 导语:
 > 本文将介绍客户端向授权服务器发送请求获取access_token时，前端处理逻辑，流程图如下。
 
-![获取access_token(前端)](../img/oauth2/access_token_1.png)
+![获取access_token(前端)](http://keyouxing.com/img/oauth2/access_token_1.png)
 ## 一、路由拦截
 当用户访问后台的任意界面时，譬如'/home'、'/user'，都会被路由拦截器，它可以判断当前界面
 应用是否拥有token，有token说明已经获取access_token，如果没有则跳转到登录界面获取access_token。
@@ -34,7 +34,7 @@ router.beforeEach((to, from, next) => {
 })
 ```
 ## 二、输入用户信息和客户端信息
-在登录界面，用户输入账号、密码后。前端携带[用户信息和客户端信息](./2020-06-12-springsecurity-2.md)向后台发送请求，
+在登录界面，用户输入账号、密码后。前端携带[用户信息和客户端信息](http://keyouxing.com/2020/06/12/springsecurity-2.html)向后台发送请求，
 后台验证失败，返回失败，重新输入；验证成功，返回access_code，伪代码如下
 ```javascript
 //client info, let's fix it
