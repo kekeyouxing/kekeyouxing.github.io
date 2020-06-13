@@ -9,12 +9,12 @@ docs-zh:
         url:    /2020/06/12/springsecurity-2.html
 
 header:
-  - sidebar:
-      nav: docs-zh
   - titles:
       en      : Archive
       zh      : 归档
     url: /archive.html
+  - sidebar:
+      nav: docs-zh
 
   - titles:
       en      : About
