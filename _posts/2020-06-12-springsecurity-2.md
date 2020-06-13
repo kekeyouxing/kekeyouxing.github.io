@@ -1,25 +1,26 @@
 ---
 title: 用户信息和客户端信息
 tags: Spring Security Oauth2
-author: keyouxing
-comment: true
+
 layout: article
 aside:
   toc: true
 sidebar:
   nav: docs-zh
+author: keyouxing
+comment: true
 ---
 #### 导语：
-> 本文将介绍客户端向授权服务器发送请求获取access_token时，包含哪些信息。
+> 本文将介绍客户端向授权服务器发送请求获取access_token时，需要发送哪些参数。
 
-## 一、用户登录信息包含哪些内容
+## 一、用户登录信息
 ### username
 `username = admin123`  
 用户的账号
 ### password
 `username = admin123`  
 用户的密码
-## 二、客户端信息包含哪些内容
+## 二、客户端信息
 ### grant_type
 `grant_type = password`  
 spring security oauth2有多种登录模式：授权码模式、密码模式、简化模式、客户端模式。这里采用密码模式登录。

@@ -1,13 +1,13 @@
 ---
 title: 获取access_token-1(前端)
 tags: Spring Security Oauth2
-author: keyouxing
-comment: true
 layout: article
 aside:
   toc: true
 sidebar:
   nav: docs-zh
+author: keyouxing
+comment: true
 ---
 #### 导语:
 > 本文将介绍客户端向授权服务器发送请求获取access_token时，前端处理逻辑。
