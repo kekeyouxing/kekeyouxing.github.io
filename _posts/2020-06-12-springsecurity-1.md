@@ -15,7 +15,7 @@ comment: true
 ,spring参与了怎样的角色。
 
 ## 密码模式角色分类
-![密码模式流程图](http://keyouxing.com/img/oauth2/password_mode.png)
+![密码模式流程图](../img/oauth2/password_mode.png)
 
 * A: 资源拥有者提供给客户端账号、密码，类似于用户在登录界面输入账号、密码。
 * B: 客户端携带账号、密码及其他信息，向授权服务器请求授权
