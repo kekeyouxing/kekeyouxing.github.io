@@ -15,6 +15,7 @@ comment: true
 至于授权服务器是如何生成access_token将在后面的文章进行讲解。
 ## 一、授权服务器的配置
 为了避免读者对授权服务器的疑惑，我们基于spring security oauth2框架直接来看看授权服务器该如何配置，伪代码如下
+
 ```java
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) {
         endpoints
