@@ -12,7 +12,8 @@ comment: true
 #### 导语
 > 怎样才能快速的学习一种设计模式？手抄或者手敲代码两三遍是最好的答案。所以笔者直接上代码和程序流程图，
 建议读者如果对责任链设计模式不清楚或者模糊，可以手抄一遍代码，再根据代码的执行顺序，模拟一遍代码流程就可以了。
-```java
+
+```javascript
 public interface Filter{
   doFilter(FilterChain filterChain);
 }
@@ -60,7 +61,7 @@ public static void main(String[] args){
 }
 ```
 打印信息如下
-```java
+```javascript
 before HTML...
 before CSS...
 after CSS..

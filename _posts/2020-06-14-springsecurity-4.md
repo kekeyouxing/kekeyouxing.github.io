@@ -16,7 +16,7 @@ comment: true
 ## 一、授权服务器的配置
 为了避免读者对授权服务器的疑惑，我们基于spring security oauth2框架直接来看看授权服务器该如何配置，伪代码如下
 
-```java
+```javascript
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) {
         endpoints
             .allowedTokenEndpointRequestMethods(HttpMethod.GET, HttpMethod.POST)
