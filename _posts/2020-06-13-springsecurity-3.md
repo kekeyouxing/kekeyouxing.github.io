@@ -1,5 +1,5 @@
 ---
-title: 获取access_token-1(前端)
+title: 获取access_token-1
 tags: Spring Security Oauth2
 layout: article
 aside:

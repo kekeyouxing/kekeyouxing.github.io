@@ -8,9 +8,15 @@ docs-zh:
       - title:  用户信息和客户端信息
         url:    /2020/06/12/springsecurity-2.html
 
-      - title:  获取access_token-1(前端)
+      - title:  获取access_token-1
         url:    /2020/06/13/springsecurity-3.html
 
+      - title:  获取access_token-2
+        url:    /2020/06/13/springsecurity-4.html
+  - title:      杂
+    children:
+      - title:  责任链设计模式
+        url:    /2020/06/14/chain-design-pattern.html
 header:
   - titles:
       en      : Archive

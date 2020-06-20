@@ -12,7 +12,7 @@ comment: true
 ---
 #### 导语：
 > spring security oauth2密码模式是基于用户输入账号、密码实现登录的一套安全框架，本系列博客将从源码分析用户是如何登入系统，以及在这个过程中
-,spring参与了怎样的角色。
+spring参与了怎样的角色。
 
 ## 密码模式角色分类
 ![密码模式流程图](http://keyouxing.com/img/oauth2/password_mode.png)
