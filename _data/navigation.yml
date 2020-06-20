@@ -12,7 +12,10 @@ docs-zh:
         url:    /2020/06/13/springsecurity-3.html
 
       - title:  授权服务器
-        url:    /2020/06/13/springsecurity-4.html
+        url:    /2020/06/14/springsecurity-4.html
+
+      - title:  SecurityContextPersistenceFilter
+        url:    /2020/06/15/SecurityContextPersistenceFilter.html
   - title:      杂
     children:
       - title:  责任链设计模式

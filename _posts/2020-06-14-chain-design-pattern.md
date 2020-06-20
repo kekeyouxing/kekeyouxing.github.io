@@ -60,7 +60,7 @@ public static void main(String[] args){
 }
 ```
 打印信息如下
-```
+```java
 before HTML...
 before CSS...
 after CSS..
